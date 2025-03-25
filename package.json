@@ -1,0 +1,27 @@
+{
+  "name": "budget-system-shared",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwincosta/budget-system-shared.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/edwincosta/budget-system-shared/issues"
+  },
+  "homepage": "https://github.com/edwincosta/budget-system-shared#readme",
+  "description": "",
+  "dependencies": {
+    "@types/mongoose": "^5.11.96",
+    "mongoose": "^8.13.0",
+    "typescript": "^5.8.2"
+  }
+}
