@@ -1,5 +1,6 @@
 export * from './models/interfaces/IAuthRefresh';
-export * from './models/interfaces/IBudget';
+export * from './models/interfaces/IMonthlyBudget';
+export * from './models/interfaces/IMonthlyExpenses';
 export * from './models/interfaces/ICategory';
 export * from './models/interfaces/ISubcategory';
 export * from './models/interfaces/IForecast';
