@@ -6,4 +6,6 @@ export * from './models/interfaces/ISubcategory';
 export * from './models/interfaces/IForecast';
 export * from './models/interfaces/IExpense';
 export * from './models/interfaces/IUser';
+export * from './models/interfaces/IMonthlyBudgetCategory';
+export * from './models/interfaces/IUserForecast';
 export * from './types/ApiResponse';

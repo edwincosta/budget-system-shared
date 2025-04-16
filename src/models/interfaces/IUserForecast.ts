@@ -1,12 +1,11 @@
 import { IForecast } from "./IForecast";
+import { IUser } from "./IUser";
 
-export interface IMonthlyBudget {
+export interface IUserForecast {
     _id?: string;
-    month: number;
-    year: number;
-    budget: number;
-    forecast: IForecast | string;
-    isActive: boolean;
+    user: string | IUser;
+    forecast: string | IForecast;
+    isDefault: boolean;
     createdBy?: string;
     createdAt?: Date;
     updatedBy?: string;

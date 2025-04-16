@@ -7,6 +7,7 @@ export interface IExpense {
     monthlyBudget: IMonthlyBudget;
     category: ICategory;
     subcategory: ISubcategory;
+    type: 'Betel' | 'Pessoal';
     description?: string;
     amount: number;
     date: Date;
