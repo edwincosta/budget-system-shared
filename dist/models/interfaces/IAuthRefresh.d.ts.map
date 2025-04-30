@@ -1,0 +1,1 @@
+{"version":3,"file":"IAuthRefresh.d.ts","sourceRoot":"","sources":["../../../src/models/interfaces/IAuthRefresh.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,SAAS,CAAC;AAEhC,MAAM,WAAW,YAAY;IACzB,GAAG,CAAC,EAAE,MAAM,CAAC;IACb,KAAK,EAAE,MAAM,CAAC;IACd,IAAI,EAAE,KAAK,CAAC;IACZ,SAAS,EAAE,IAAI,CAAC;CACnB"}
