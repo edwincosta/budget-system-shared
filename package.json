@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && tsc"
@@ -12,7 +15,7 @@
     "url": "git+https://github.com/edwincosta/budget-system-shared.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Edwin Costa",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
