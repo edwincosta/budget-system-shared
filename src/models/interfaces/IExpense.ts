@@ -4,9 +4,9 @@ import { ISubcategory } from "./ISubcategory";
 
 export interface IExpense {
     _id?: string;
-    monthlyBudget: IMonthlyBudget;
-    category: ICategory;
-    subcategory: ISubcategory;
+    monthlyBudget: IMonthlyBudget | string;
+    category: ICategory | string;
+    subcategory: ISubcategory | string;
     type: 'Betel' | 'Pessoal';
     description?: string;
     amount: number;
